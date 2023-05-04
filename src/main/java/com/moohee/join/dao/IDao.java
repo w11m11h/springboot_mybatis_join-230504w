@@ -1,5 +1,7 @@
 package com.moohee.join.dao;
 
-public interface IDao {
+import com.moohee.join.dto.BoardDto;
 
+public interface IDao {
+	public BoardDto listDao(String id);
 }
